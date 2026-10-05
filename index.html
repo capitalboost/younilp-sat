@@ -175,6 +175,26 @@
   }
   @media(max-width:560px){ .pcards{grid-template-columns:1fr} }
   @media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
+
+  /* CAND SA INCEPI */
+  .when{background:var(--mesh);color:#fff}
+  .when .eye{color:var(--go)}
+  .when .stitle{color:#fff}
+  .when .ssub{color:rgba(255,255,255,.84)}
+  .wsteps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px;text-align:left}
+  .wstep{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.13);border-radius:var(--r);padding:26px 24px;position:relative;overflow:hidden}
+  .wstep .wn{position:absolute;top:16px;right:20px;font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:50px;color:rgba(255,255,255,.08);line-height:1}
+  .wstep .wk{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.04em;font-size:13px;color:var(--go);margin-bottom:10px}
+  .wstep h3{font-size:21px;color:#fff;margin-bottom:8px}
+  .wstep p{font-size:14.5px;color:rgba(255,255,255,.72);line-height:1.6}
+  .wcall{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px;text-align:left}
+  .wbox{border-radius:var(--r);padding:22px 24px;font-size:15px;line-height:1.6;color:rgba(255,255,255,.88)}
+  .wbox.warn{background:rgba(228,0,114,.12);border:1.5px solid var(--mg)}
+  .wbox.obj{background:rgba(221,167,0,.1);border:1.5px solid var(--go)}
+  .wbox b{color:#fff;font-weight:600}
+  .wbox .wt{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:16px;margin-bottom:8px;display:block;letter-spacing:.02em}
+  .wbox.warn .wt{color:var(--mg)} .wbox.obj .wt{color:var(--go)}
+  @media(max-width:900px){.wsteps{grid-template-columns:1fr}.wcall{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -244,6 +264,25 @@
         <div class="chips"><span>Reading</span><span>Writing</span><span>Gramatică</span><span>Vocabular</span><span>Strategii de timp</span><span>Simulări</span></div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- CAND SA INCEPI -->
+<section class="sec when">
+  <div class="wrap center">
+    <div class="eye rv">Când să începi</div>
+    <h2 class="stitle rv">Cel mai bun moment e clasa a 10-a</h2>
+    <p class="ssub rv" style="max-width:780px;margin-left:auto;margin-right:auto">Aproape toți elevii ne întreabă același lucru: „când e bine să încep?" Răspunsul scurt — cât mai devreme. Ideal: faci pregătirea în <b style="color:#fff;font-weight:600">clasa a 10-a</b> și dai SAT-ul în <b style="color:#fff;font-weight:600">vara dinainte de clasa a 11-a</b>. Așa termini devreme cu el și îți eliberezi anii cu adevărat grei.</p>
+    <div class="wsteps">
+      <div class="wstep rv"><span class="wn">1</span><div class="wk">Clasa a 10-a</div><h3>Începi pregătirea</h3><p>Înveți în ritm sănătos, fără presiune, și dai o evaluare SAT din prima ședință, ca să-ți construim planul.</p></div>
+      <div class="wstep rv"><span class="wn">2</span><div class="wk">Vara dinainte de clasa a 11-a</div><h3>Dai SAT-ul</h3><p>Ai vara liberă pentru examen — cu timp și de un retake, dacă vrei un scor și mai mare.</p></div>
+      <div class="wstep rv"><span class="wn">3</span><div class="wk">Clasa a 11-a → a 12-a</div><h3>Ești liber</h3><p>Te concentrezi pe dosar, eseuri, recomandări și BAC — fără stresul SAT pe cap.</p></div>
+    </div>
+    <div class="wcall">
+      <div class="wbox warn rv"><span class="wt">⚠️ Limita: iunie, clasa a 11-a</span>În niciun caz nu e bine să te prindă SAT-ul după iunie, în clasa a 11-a. <b>Se suprapune cu BAC-ul și cu dosarul de aplicare</b> și îți fură exact vara în care ai vrea să respiri. Cine începe târziu dă SAT-ul în panică; cine începe devreme îl dă din poziție de forță.</div>
+      <div class="wbox obj rv"><span class="wt">„A 10-a nu e prea devreme?"</span>Nu — dimpotrivă. Dacă faci matematică la nivel <b>M1 sau M2</b>, ai deja baza. SAT-ul nu cere matematică mai grea decât la clasă — o cere în engleză și cu strategie de examen. <b>Ești mai pregătit decât crezi.</b></div>
+    </div>
+    <div class="rv" style="margin-top:34px"><a class="btn lg" href="https://academy.younichoice.com/" target="_blank" rel="noopener">Începe pregătirea — Youni Academy&nbsp;&nbsp;→</a></div>
   </div>
 </section>
 
